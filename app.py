@@ -135,10 +135,10 @@ def download_file():
 @app.route('/downloadss/<filename>')
 def downloadss(filename):     
     try:
-        pat = "uploads\\" + session.get("r",None) + "_" + filename
+        pat = "uploads/" + session.get("r",None) + "_" + filename
         return send_file(pat)
     except:
-        pat = "uploads\\iitj.png"
+        pat = "uploads/iitj.png"
         return send_file(pat)
 
 
