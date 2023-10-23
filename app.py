@@ -28,8 +28,8 @@ def predict():
     int_features = [str(x) for x in request.form.values()]
 
 
-    name = list(int_features[0].replace(" ", "_"))                    # name =  "Samarth_Sudhirkumar_Bhalerao_"
-    rollno = int_features[1].replace(" ", "_")                        # rollno = "B21EE060_"
+    name = list(int_features[0].replace(" ", "_"))                    # name =  "Samarth_Xnxx_Bkkkkfgd_"
+    rollno = int_features[1].replace(" ", "_")                        # rollno = "B21XX001_"
     # rollno[0].upper()
     rollno = rollno.upper()
     if rollno[-1] != "_":
