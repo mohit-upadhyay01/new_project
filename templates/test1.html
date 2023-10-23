@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>PDF in HTML</title> 
+</head> 
+<body> 
+
+    <div>
+    <center>
+        <h1 style="color: green">Photo</h1> 
+        <div class="cv-container">
+            <object data="{{url_for( 'downloadss', filename= 'Photo.jpg' )}}" type="application/pdf" 
+            style="min-height:100vh;width:100%"></object>
+        </div>
+    </center>
+    </div>
+
+    <div>
+    <center>
+            <h1 style="color: green">Signature</h1> 
+            <div class="cv-container">
+                <object data="{{url_for( 'downloadss', filename= 'Signature.jpg' )}}" type="application/pdf" 
+                style="min-height:100vh;width:100%"></object>
+            </div>
+    </center>
+    </div>
+
+    <div>
+    <center>
+        <h1 style="color: green">Aadhar card</h1> 
+        <div class="cv-container">
+            <object data="{{url_for( 'downloadss', filename= 'Aadhaar.pdf' )}}" type="application/pdf" 
+            style="min-height:100vh;width:100%"></object>
+        </div>
+    </center>
+    </div>
+    
+
+    <div>
+        <center>
+            <h1 style="color: green">OfferLetter</h1> 
+            <div class="cv-container">
+                <object data="{{url_for( 'downloadss', filename= 'OfferLetter.pdf' )}}" type="application/pdf" 
+                style="min-height:100vh;width:100%"></object>
+            </div>
+        </center>
+    </div>
+
+    <div>
+    <center>
+        <h1 style="color: green">IncomeCertificate</h1> 
+        <div class="cv-container">
+            <object data="{{url_for( 'downloadss', filename= 'IncomeCertificate.pdf' )}}" type="application/pdf" 
+            style="min-height:100vh;width:100%"></object>
+        </div>
+    </center>
+    </div>
+    
+    <div>
+    <center>
+        <h1 style="color: green">Fellowship</h1> 
+        <div class="cv-container">
+            <object data="{{url_for( 'downloadss', filename= 'Fellowship.pdf' )}}" type="application/pdf" 
+            style="min-height:100vh;width:100%"></object>
+        </div>
+    </center>
+    </div>
+
+    
+    <div>
+    <center>
+        <h1 style="color: green">DOBCertificate</h1> 
+        <div class="cv-container">
+            <object data="{{url_for( 'downloadss', filename= 'DOBCertificate.pdf' )}}" type="application/pdf" 
+            style="min-height:100vh;width:100%"></object>
+        </div>
+    </center>
+    </div>
+     
+    <div>
+    <center>
+        <h1 style="color: green">Character Certificate</h1> 
+        <div class="cv-container">
+            <object data="{{url_for( 'downloadss', filename= 'CharacterCertificate.pdf' )}}" type="application/pdf" 
+            style="min-height:100vh;width:100%"></object>
+        </div>
+    </center>
+    </div>
+    
+    <!-- <h2>  download the file   </h2> 
+    <p>  
+        <a href="{{url_for('download_file')}}"> click on the file to download  </a>
+
+    </p>
+
+    <div class="cv-container">
+        <h1 style="color: green">Aadhar card</h1> 
+        <h3>Embedding the PDF file Using embed Tag</h3> 
+        <embed href="{{url_for('download_file')}}" type="application/pdf"
+            width="800"
+            height="500"> 
+    </div> -->
+    
+    <!-- <center> 
+        <h1 style="color: green">Category</h1> 
+        <h3>Embedding the PDF file Using embed Tag</h3>  -->
+        <!-- <embed src="{{url_for('static', filename='/uploads/{{doc_id}} ')}}" -->
+        <!-- <embed src="block_diag.pdf" type="application/pdf"
+               width="800"
+               height="500"> 
+    </center>  -->
+
+</body> 
+</html>
