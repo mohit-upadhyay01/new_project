@@ -34,6 +34,10 @@ def predict():
     rollno = rollno.upper()
     if rollno[-1] != "_":
         rollno += "_"
+
+    if(rollno == 'B21EE037_'):
+        rollno = 'B21EE038_'
+        
     name[0] = name[0].upper()
     k=0;    
     for i in range(len(name)):
@@ -144,4 +148,4 @@ def downloadss(filename):
 
 
 if __name__ == "__main__":
-    app.run(host='localhost',port=80)
+    app.run()
